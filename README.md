@@ -19,9 +19,4 @@ Contact the mailing list:
 You can see build status here: [http://build01.stealfocus.co.uk/ccnet/ViewFarmReport.aspx](http://build01.stealfocus.co.uk/ccnet/ViewFarmReport.aspx)
 
 
-To Do In This Branch
---------------------
-- [ ] StyleCop.MSBuild nuget package (has project-level csproj xforms, not compatible with self-defined .proj files...)
-- [ ] MSBuild.Extension.Kit nuget package
-- [x] Do something about keeping these references up to date when NuGet updates to latest version or lock into a very specific version.  Maybe something like this: http://danlimerick.wordpress.com/2011/10/01/getting-around-nugets-external-package-dependency-problem/ or some PoSh magic (reading packages.config maybe?)
-Is this useful? http://www.nuget.org/packages/BuildTools.MsBuild/, which builds upon: http://msdn.microsoft.com/en-us/library/microsoft.build.evaluation.projectcollection(v=vs.121).aspx
+[To Do](issues)
